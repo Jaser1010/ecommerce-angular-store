@@ -1,27 +1,42 @@
-# Angularproject
+# E-Commerce Angular Store
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.3.
+A front-end web application for an e-commerce store built with **Angular** and **TypeScript**. The app showcases product categories (e.g., Men, Women, Kids), product listings, detailed product pages and a basic shopping cart experience.
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Browse product categories: Men, Women, Kids and more
+- View lists of products with images, descriptions and prices
+- Navigate to a detailed page for each product
+- Add items to a shopping cart and adjust quantities (basic cart logic)
+- Responsive design using Angular components and modern CSS
+- Organized component-based architecture for scalability
 
-## Code scaffolding
+## Tech Stack
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Angular** 18.x
+- **TypeScript**
+- **HTML** & **CSS** (TailwindCSS or Bootstrap)
+- **Angular CLI** for project scaffolding and build
+- **Angular Router** for navigation and **RxJS** for state management
 
-## Build
+## Getting Started
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Clone the repository and install dependencies:
 
-## Running unit tests
+```
+git clone https://github.com/Jaser1010/ecommerce-angular-store.git
+cd ecommerce-angular-store
+npm install
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Run the development server:
 
-## Running end-to-end tests
+```
+ng serve
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+The application will be available at `http://localhost:4200/`.
 
-## Further help
+## Contributing
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+This project is for learning purposes. Feel free to fork the repository and submit pull requests with improvements or bug fixes.
